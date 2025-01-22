@@ -44,3 +44,11 @@ from tqdm import tqdm_notebook as tqdm
 run_training = False
 retrain = False
 find_learning_rate = False
+
+Exploring the data structure
+files = listdir("../input/breast-histopathology-images/")
+print(len(files))
+
+files[0:10]
+files = listdir("../input/breast-histopathology-images/IDC_regular_ps50_idx5/")
+len(files)
